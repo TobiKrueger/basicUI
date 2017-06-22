@@ -3,8 +3,6 @@ package de.tobi.basicGUI.UIs;
 import javax.swing.JFrame;
 import javax.swing.WindowConstants;
 
-import com.sun.glass.ui.Window;
-
 /**
  * This class is used to Generate a main Window 
  * 
