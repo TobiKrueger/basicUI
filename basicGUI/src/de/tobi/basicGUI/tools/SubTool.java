@@ -27,6 +27,12 @@ public abstract class SubTool {
 
 	}
 	
+	/**
+	 * This Method should be used to get the UI's Panel and then add it to the MainScreen
+	 * The Panel should contain every component that is used by the Tool
+	 * 
+	 * @return a JPanel wich is used as a Container for the Subtool
+	 */
 	public JPanel getContainerForSubTool(){
 		return _ui.getPanel();
 	}
